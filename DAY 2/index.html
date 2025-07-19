@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Sample Form</title>
+</head>
+<body>
+    <a href="https://google.com" target="_blank">Go To Google</a>
+
+    <form>
+        <!-- Text Input -->
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter Your First Name" required>
+        <br><br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+        <br><br>
+
+        <!-- Password Input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter Password" required>
+        <br><br>
+
+        <!-- Gender Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Newsletter Checkbox -->
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe to newsletter</label><br><br>
+
+        <!-- Dropdown Menu -->
+        <label for="role">Choose Your Role:</label><br>
+        <select id="role" name="role" required>
+            <option value="disabled selected">Select the Option</option>
+            <option value="frontend">Front End Developer</option>
+            <option value="backend">Back End Developer</option>
+            <option value="data">Data Analyst</option>
+        </select>
+        <br><br>
+
+        <!-- Textarea -->
+        <label for="feedback">Feedback:</label><br>
+        <textarea id="feedback" name="feedback" placeholder="Enter Your Feedback" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

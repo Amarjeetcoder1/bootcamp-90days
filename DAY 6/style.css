@@ -1,0 +1,19 @@
+.container {
+    width: 1000px;
+    height: 1000px;
+    border:  3px solid red;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header {
+    width: 1000px;
+    display: flex;
+}
+.left-box {
+    width: 500px;
+}
+.right-box {
+    width: 500px;
+}
+

@@ -1,0 +1,32 @@
+.container {
+    width: 900px;
+    height: 1200px; 
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+
+    
+}
+.header {
+    width: 800px;
+    height: 150px;
+    background-color: blueviolet;
+}
+.box {
+    width: 300px;
+    height: 400px; 
+    background-color: red;
+    border: 3px solid black;
+}
+
+/* 
+flex
+flex wrap
+justify-content
+aligen-items
+aligen-content
+
+
+*/
